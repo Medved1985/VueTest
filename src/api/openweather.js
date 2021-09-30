@@ -1,7 +1,8 @@
 export default class OpenWeatherApi {
     constructor() {
-        this.baseUrl = 'http://api.openweathermap.org/data/2.5/'        
-        this.apiKey = '5cc25850a31d745765dae82b247ec2fe'
+        this.baseUrl = 'http://api.openweathermap.org/data/2.5/'    
+        // 5cc25850a31d745765dae82b247ec2fe
+        this.apiKey = ''
         this.api = 'weather'
         this.query = 'q='
         this.apiUrl = `${this.baseUrl}${this.api}?${this.query}&APPID=${this.apiKey}&units=metric`;
